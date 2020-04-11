@@ -35,6 +35,7 @@ header .row {
     width: 100%;
 }
 
+
 header nav {
     display: flex;
     justify-content: flex-end;
@@ -49,14 +50,20 @@ header p {
     margin: 0;
 }
 
-html, body {
+body {
+    background-color: papayawhip;
+}
+
+#compsci {
+    width: 100%;
+    text-align: center;
+    background-color: skyblue;
 }
 
 
 #centerimg {
     width: 100%;
     text-align: center;
-    background-color: papayawhip;
 }
 
 
@@ -68,6 +75,7 @@ html, body {
 footer {
     font-size: 12px;
     padding: 20px 0;
+    background-color: white;
 }
 
 
