@@ -62,14 +62,20 @@ body {
 
 
 #centerimg {
+    
     width: 100%;
     text-align: center;
+    z-index: 6;
 }
 
 
 #centerimg p {
     color: grey;
     margin: 0;
+}
+
+#figure {
+    margin: 80px 0 0 0;
 }
 
 footer {
@@ -118,8 +124,6 @@ footer li img {
     display: block;
 }
 
-
-
 .contactme {
     padding: 0;
     margin: 10px 0;
@@ -137,6 +141,28 @@ footer li img {
     top: 2px;
     color: plum;
 }
+
+.slidergon1 {
+    position: absolute;
+    top: 300px;
+    left: 1300px;
+
+    width: 220px;
+    height: 300px;
+    clip-path: polygon(0 0, 100% 0%, 100% 10%, 15% 10%, 15% 100%, 0 100%);
+    background-color: #41DDD4;
+    border: 15px solid black;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+#topleftborder {
+    position:absolute;
+    top:300px;
+    left:800px;
+
+}
+
 
 
 
